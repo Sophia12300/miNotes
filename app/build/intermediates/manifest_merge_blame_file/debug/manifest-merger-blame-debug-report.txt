@@ -1,0 +1,285 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3 Copyright (c) 2010-2011, The MiCode Open Source Community (www.micode.net)
+4
+5     Licensed under the Apache License, Version 2.0 (the "License");
+6     you may not use this file except in compliance with the License.
+7     You may obtain a copy of the License at
+8
+9          http://www.apache.org/licenses/LICENSE-2.0
+10
+11     Unless required by applicable law or agreed to in writing, software
+12     distributed under the License is distributed on an "AS IS" BASIS,
+13     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14     See the License for the specific language governing permissions and
+15     limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="net.micode.notes"
+19    android:versionCode="1"
+20    android:versionName="0.1" >
+21
+22    <uses-sdk
+22-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:23:5-44
+23        android:minSdkVersion="22"
+23-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:23:15-41
+24        android:targetSdkVersion="22" />
+24-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:23:5-44
+25
+26    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+26-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:25:5-81
+26-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:25:22-78
+27    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+27-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:26:5-88
+27-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:26:22-85
+28    <uses-permission android:name="android.permission.INTERNET" />
+28-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:27:5-67
+28-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:27:22-64
+29    <uses-permission android:name="android.permission.READ_CONTACTS" />
+29-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:28:5-72
+29-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:28:22-69
+30    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+30-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:29:5-74
+30-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:29:22-71
+31    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+31-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:30:5-80
+31-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:30:22-77
+32    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+32-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:31:5-71
+32-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:31:22-68
+33    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+33-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:32:5-74
+33-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:32:22-71
+34    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+34-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:33:5-81
+34-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:33:22-78
+35
+36    <application
+36-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:35:5-155:19
+37        android:debuggable="true"
+38        android:icon="@drawable/icon_app"
+38-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:36:9-42
+39        android:label="@string/app_name"
+39-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:37:9-41
+40        android:testOnly="true" >
+41        <activity
+41-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:38:9-52:20
+42            android:name="net.micode.notes.ui.NotesListActivity"
+42-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:39:13-49
+43            android:configChanges="keyboardHidden|orientation|screenSize"
+43-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:40:13-74
+44            android:exported="true"
+44-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:46:13-36
+45            android:label="@string/app_name"
+45-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:41:13-45
+46            android:launchMode="singleTop"
+46-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:42:13-43
+47            android:theme="@style/NoteTheme"
+47-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:43:13-45
+48            android:uiOptions="splitActionBarWhenNarrow"
+48-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:44:13-57
+49            android:windowSoftInputMode="adjustPan" >
+49-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:45:13-52
+50            <intent-filter>
+50-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:48:13-51:29
+51                <action android:name="android.intent.action.MAIN" />
+51-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:49:17-69
+51-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:49:25-66
+52
+53                <category android:name="android.intent.category.LAUNCHER" />
+53-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:50:17-77
+53-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:50:27-74
+54            </intent-filter>
+55        </activity>
+56        <activity
+56-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:54:9-84:20
+57            android:name="net.micode.notes.ui.NoteEditActivity"
+57-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:55:13-48
+58            android:configChanges="keyboardHidden|orientation|screenSize"
+58-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:56:13-74
+59            android:exported="true"
+59-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:59:13-36
+60            android:launchMode="singleTop"
+60-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:57:13-43
+61            android:theme="@style/NoteTheme" >
+61-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:58:13-45
+62            <intent-filter android:scheme="http" >
+62-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:61:13-67:29
+62-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:61:28-49
+63                <action android:name="android.intent.action.VIEW" />
+63-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:63:17-69
+63-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:63:25-66
+64
+65                <category android:name="android.intent.category.DEFAULT" />
+65-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:64:17-76
+65-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:64:27-73
+66
+67                <data android:mimeType="vnd.android.cursor.item/text_note" />
+67-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:65:17-78
+67-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:65:23-75
+68                <data android:mimeType="vnd.android.cursor.item/call_note" />
+68-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:65:17-78
+68-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:65:23-75
+69            </intent-filter>
+70            <intent-filter>
+70-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:69:13-74:29
+71                <action android:name="android.intent.action.INSERT_OR_EDIT" />
+71-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:70:17-79
+71-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:70:25-76
+72
+73                <category android:name="android.intent.category.DEFAULT" />
+73-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:64:17-76
+73-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:64:27-73
+74
+75                <data android:mimeType="vnd.android.cursor.item/text_note" />
+75-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:65:17-78
+75-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:65:23-75
+76                <data android:mimeType="vnd.android.cursor.item/call_note" />
+76-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:65:17-78
+76-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:65:23-75
+77            </intent-filter>
+78            <intent-filter>
+78-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:76:13-79:29
+79                <action android:name="android.intent.action.SEARCH" />
+79-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:77:17-71
+79-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:77:25-68
+80
+81                <category android:name="android.intent.category.DEFAULT" />
+81-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:64:17-76
+81-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:64:27-73
+82            </intent-filter>
+83
+84            <meta-data
+84-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:81:13-83:54
+85                android:name="android.app.searchable"
+85-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:82:17-54
+86                android:resource="@xml/searchable" />
+86-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:83:17-51
+87        </activity>
+88
+89        <provider
+89-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:86:9-89:43
+90            android:name="net.micode.notes.data.NotesProvider"
+90-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:87:13-63
+91            android:authorities="micode_notes"
+91-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:88:13-47
+92            android:multiprocess="true" />
+92-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:89:13-40
+93
+94        <receiver
+94-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:91:9-104:20
+95            android:name="net.micode.notes.widget.NoteWidgetProvider_2x"
+95-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:92:13-57
+96            android:exported="true"
+96-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:94:13-36
+97            android:label="@string/app_widget2x2" >
+97-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:93:13-50
+98            <intent-filter>
+98-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:95:13-99:29
+99                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+99-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:96:17-84
+99-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:96:25-81
+100                <action android:name="android.appwidget.action.APPWIDGET_DELETED" />
+100-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:97:17-85
+100-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:97:25-82
+101                <action android:name="android.intent.action.PRIVACY_MODE_CHANGED" />
+101-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:98:17-85
+101-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:98:25-82
+102            </intent-filter>
+103
+104            <meta-data
+104-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:101:13-103:58
+105                android:name="android.appwidget.provider"
+105-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:102:17-58
+106                android:resource="@xml/widget_2x_info" />
+106-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:103:17-55
+107        </receiver>
+108        <receiver
+108-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:105:9-119:20
+109            android:name="net.micode.notes.widget.NoteWidgetProvider_4x"
+109-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:106:13-57
+110            android:exported="true"
+110-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:108:13-36
+111            android:label="@string/app_widget4x4" >
+111-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:107:13-50
+112            <intent-filter>
+112-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:95:13-99:29
+113                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+113-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:96:17-84
+113-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:96:25-81
+114                <action android:name="android.appwidget.action.APPWIDGET_DELETED" />
+114-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:97:17-85
+114-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:97:25-82
+115                <action android:name="android.intent.action.PRIVACY_MODE_CHANGED" />
+115-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:98:17-85
+115-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:98:25-82
+116            </intent-filter>
+117
+118            <meta-data
+118-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:101:13-103:58
+119                android:name="android.appwidget.provider"
+119-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:102:17-58
+120                android:resource="@xml/widget_4x_info" />
+120-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:103:17-55
+121        </receiver>
+122        <receiver
+122-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:121:9-126:20
+123            android:name="net.micode.notes.ui.AlarmInitReceiver"
+123-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:121:19-55
+124            android:exported="true" >
+124-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:122:13-36
+125            <intent-filter>
+125-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:123:13-125:29
+126                <action android:name="android.intent.action.BOOT_COMPLETED" />
+126-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:124:17-79
+126-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:124:25-76
+127            </intent-filter>
+128        </receiver>
+129        <receiver
+129-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:128:9-131:20
+130            android:name="net.micode.notes.ui.AlarmReceiver"
+130-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:129:13-61
+131            android:process=":remote" >
+131-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:130:13-38
+132        </receiver>
+133
+134        <activity
+134-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:133:9-138:20
+135            android:name="net.micode.notes.ui.AlarmAlertActivity"
+135-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:134:13-50
+136            android:label="@string/app_name"
+136-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:135:13-45
+137            android:launchMode="singleInstance"
+137-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:136:13-48
+138            android:theme="@android:style/Theme.Holo.Wallpaper.NoTitleBar" >
+138-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:137:13-75
+139        </activity>
+140        <activity
+140-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:140:9-145:20
+141            android:name="net.micode.notes.ui.NotesPreferenceActivity"
+141-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:141:13-71
+142            android:label="@string/preferences_title"
+142-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:142:13-54
+143            android:launchMode="singleTop"
+143-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:143:13-43
+144            android:theme="@android:style/Theme.Holo.Light" >
+144-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:144:13-60
+145        </activity>
+146
+147        <service
+147-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:147:9-150:19
+148            android:name="net.micode.notes.gtask.remote.GTaskSyncService"
+148-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:148:13-74
+149            android:exported="false" >
+149-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:149:13-37
+150        </service>
+151
+152        <meta-data
+152-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:152:9-154:52
+153            android:name="android.app.default_searchable"
+153-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:153:13-58
+154            android:value=".ui.NoteEditActivity" />
+154-->C:\Users\SQ_ZYX\StudioProjects\Notes-master2\app\src\main\AndroidManifest.xml:154:13-49
+155    </application>
+156
+157</manifest>
