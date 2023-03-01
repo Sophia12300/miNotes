@@ -27,7 +27,6 @@ public class Notes {
     public static final int TYPE_NOTE     = 0;
     public static final int TYPE_FOLDER   = 1;
     public static final int TYPE_SYSTEM   = 2;
-
     /**
      * Following IDs are system folders' identifiers
      * {@link Notes#ID_ROOT_FOLDER } is default folder
