@@ -88,7 +88,7 @@ public class NotesProvider extends ContentProvider {
         + " AND " + NoteColumns.PARENT_ID + "<>" + Notes.ID_TRASH_FOLER
         + " AND " + NoteColumns.TYPE + "=" + Notes.TYPE_NOTE;
 
-    @Override
+
     // Context只有在onCreate()中才被初始化
     // 对mHelper进行实例化
     public boolean onCreate() {
