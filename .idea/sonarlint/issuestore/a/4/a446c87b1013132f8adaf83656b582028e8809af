@@ -1,0 +1,17 @@
+
+e
+java:S2095¯"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(ŠÀø¯
+k	java:S116{"VRename this field "TEXT_FORMAT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñ›–¼
+i
+java:S3776¬"RRefactor this method to reduce its Cognitive Complexity from 27 to the 15 allowed.(œÃÁí
+n
+java:S3776á"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(û€•ÿÿÿÿÿ
+\
+java:S2147´"ECombine this catch with the one at line 305, which has the same body.(ßÈ´
+\
+java:S2147Ô"ECombine this catch with the one at line 338, which has the same body.(ï­£Ä
+]	java:S899Ï"BDo something with the "boolean" value returned by "createNewFile".(Ğ’Íùÿÿÿÿ
+?
+java:S3398¿"#Move this method into "TextExport".(¨ä¿ÿıÿÿÿÿ
+8
+java:S3398L"#Move this method into "TextExport".(şş¯*

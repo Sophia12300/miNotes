@@ -1,0 +1,9 @@
+
+Z	xml:S5604"FMake sure the use of "WRITE_EXTERNAL_STORAGE" permission is necessary.(¤˜ÿB
+W	xml:S5604"=Make sure the use of "READ_CONTACTS" permission is necessary.(£Û §øÿÿÿÿ
+Q	xml:S5604"<Make sure the use of "GET_ACCOUNTS" permission is necessary.(–½«Ø
+J	xml:S5322["0Make sure that intents are received safely here.(èç‚óûÿÿÿÿ
+J	xml:S5322i"0Make sure that intents are received safely here.(èç‚óûÿÿÿÿ
+E	xml:S5322y"0Make sure that intents are received safely here.(´×º—
+–	xml:S5332#"|"usesCleartextTraffic" is implicitly enabled for older Android versions. Make sure allowing clear-text traffic is safe here.(ç¸¸òþÿÿÿÿ
+L	xml:S6358#"2Make sure backup of application data is safe here.(ç¸¸òþÿÿÿÿ

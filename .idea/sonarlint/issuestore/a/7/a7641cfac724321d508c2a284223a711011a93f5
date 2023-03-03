@@ -1,0 +1,16 @@
+
+f
+java:S1192I"KDefine a constant instead of duplicating this literal "content://" 4 times.(€¨±Œúÿÿÿÿ
+U
+java:S1118A":Add a private constructor to hide the implicit public one.(ž’Í“úÿÿÿÿ
+Q	java:S125O"<This block of commented-out lines of code should be removed.(…‘ì
+^
+java:S1214\"CMove constants defined in this interfaces to another class or enum.(Éâ¸«úÿÿÿÿ
+Z
+java:S1214Ç"CMove constants defined in this interfaces to another class or enum.(ŠÉôŸ
+V
+java:S1118š":Add a private constructor to hide the implicit public one.(”‹ˆþÿÿÿÿ
+Q
+java:S1118°":Add a private constructor to hide the implicit public one.(ß€°•
+S
+java:S1128"8Remove this unused import 'android.content.ContentUris'.(Å¹ä­ùÿÿÿÿ

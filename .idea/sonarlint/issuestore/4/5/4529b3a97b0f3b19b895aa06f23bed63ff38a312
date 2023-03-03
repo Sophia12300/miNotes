@@ -1,0 +1,71 @@
+
+u
+java:S2293û"YReplace the type specification in this constructor call with the diamond operator ("<>").(æå„şÿÿÿÿ
+b
+java:S2184"FCast one of the operands of this multiplication operation to a "long".(â£›Úùÿÿÿÿ
+T
+java:S1874O"9Remove this use of "DefaultHttpClient"; it is deprecated.(ë¯¥ìşÿÿÿÿ
+I
+java:S1874ƒ"2Remove this use of "HttpParams"; it is deprecated.(øìÖ¶
+N
+java:S1874ƒ"7Remove this use of "BasicHttpParams"; it is deprecated.(øìÖ¶
+X
+java:S1874„"<Remove this use of "HttpConnectionParams"; it is deprecated.(¥˜Â’úÿÿÿÿ
+S
+java:S1874…"<Remove this use of "HttpConnectionParams"; it is deprecated.(°™¦í
+O
+java:S1874†"9Remove this use of "DefaultHttpClient"; it is deprecated.(ÛÔÇ/
+T
+java:S1874‡"8Remove this use of "BasicCookieStore"; it is deprecated.(¦‡êˆøÿÿÿÿ
+T
+java:S1874‡"8Remove this use of "BasicCookieStore"; it is deprecated.(¦‡êˆøÿÿÿÿ
+V
+java:S1874‰":Remove this use of "HttpProtocolParams"; it is deprecated.(Ã•êøÿÿÿÿÿ
+K
+java:S1874"/Remove this use of "HttpGet"; it is deprecated.(å”†—ùÿÿÿÿ
+K
+java:S1874"/Remove this use of "HttpGet"; it is deprecated.(å”†—ùÿÿÿÿ
+P
+java:S1874"4Remove this use of "HttpResponse"; it is deprecated.(Òø±¾şÿÿÿÿ
+J
+java:S1874”".Remove this use of "Cookie"; it is deprecated.(Ğ–í˜ÿÿÿÿÿ
+J
+java:S1874–".Remove this use of "Cookie"; it is deprecated.(èı¯ûÿÿÿÿ
+L
+java:S1874Á"0Remove this use of "HttpPost"; it is deprecated.(÷îäĞøÿÿÿÿ
+L
+java:S1874Â"0Remove this use of "HttpPost"; it is deprecated.(‹äÏÒÿÿÿÿÿ
+L
+java:S1874Â"0Remove this use of "HttpPost"; it is deprecated.(‹äÏÒÿÿÿÿÿ
+I
+java:S1874Ì"2Remove this use of "HttpEntity"; it is deprecated.(Û…­ñ
+F
+java:S2093Û"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+G
+java:S1874ù"0Remove this use of "HttpPost"; it is deprecated.(ê ¶É
+\
+java:S2147Š"ECombine this catch with the one at line 390, which has the same body.(ï­£Ä
+V
+java:S1874û":Remove this use of "BasicNameValuePair"; it is deprecated.(æå„şÿÿÿÿ
+V
+java:S1874û":Remove this use of "BasicNameValuePair"; it is deprecated.(æå„şÿÿÿÿ
+V
+java:S1874ü":Remove this use of "BasicNameValuePair"; it is deprecated.(ø³®ñıÿÿÿÿ
+X
+java:S1874ı"<Remove this use of "UrlEncodedFormEntity"; it is deprecated.(ÿúÃÑûÿÿÿÿ
+X
+java:S1874ı"<Remove this use of "UrlEncodedFormEntity"; it is deprecated.(ÿúÃÑûÿÿÿÿ
+P
+java:S1874‚"4Remove this use of "HttpResponse"; it is deprecated.(¬±óûÿÿÿÿ
+[
+java:S1874†"?Remove this use of "ClientProtocolException"; it is deprecated.(‡¤“Óûÿÿÿÿ
+\
+java:S2147ï"ECombine this catch with the one at line 619, which has the same body.(ï­£Ä
+F
+java:S1874Ù"/Remove this use of "HttpGet"; it is deprecated.(”ëÚê
+F
+java:S1874Ù"/Remove this use of "HttpGet"; it is deprecated.(”ëÚê
+P
+java:S1874Ú"4Remove this use of "HttpResponse"; it is deprecated.(Òø±¾şÿÿÿÿ
+[
+java:S1874ë"?Remove this use of "ClientProtocolException"; it is deprecated.(‡¤“Óûÿÿÿÿ

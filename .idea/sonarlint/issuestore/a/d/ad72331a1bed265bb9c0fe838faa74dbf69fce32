@@ -1,0 +1,70 @@
+
+p
+java:S2293™"YReplace the type specification in this constructor call with the diamond operator ("<>").(è‰¥ğ
+>
+java:S1604š"(Make this anonymous inner class a lambda(—ÌºV
+?
+java:S1604à"(Make this anonymous inner class a lambda(Î¬¯”
+?
+java:S1604Ö"(Make this anonymous inner class a lambda(¿Ü´ã
+D
+java:S1604ï"(Make this anonymous inner class a lambda(ˆĞïøÿÿÿÿ
+?
+java:S1604÷"(Make this anonymous inner class a lambda(øÄì‡
+?
+java:S1604ç"(Make this anonymous inner class a lambda(Û±¼ 
+?
+java:S1604"(Make this anonymous inner class a lambda(Î¬¯”
+g
+java:S1301Ç"KReplace this "switch" statement by "if" statements to increase readability.(×“¾ñùÿÿÿÿ
+7
+java:S1116d"Remove this empty statement.(ôŸìúÿÿÿÿ
+a
+java:S1124‹"EReorder the modifiers to comply with the Java Language Specification.(¹úæµûÿÿÿÿ
+[
+java:S1124Œ"EReorder the modifiers to comply with the Java Language Specification.(ìÑ¾k
+n
+java:S3776¬"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(áé–Şÿÿÿÿÿ
+2
+java:S3626À"Remove this redundant jump.(ûÁİ…
+2
+java:S3626Ä"Remove this redundant jump.(ûÁİ…
+2
+java:S3626Ú"Remove this redundant jump.(ûÁİ…
+N
+java:S1135Ê"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+F
+java:S2093²"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+o
+java:S1450‚"XRemove the "mMoveMenu" field and declare it as a local variable in the relevant methods.(¢—ò
+n
+java:S3252ÿ"RUse static access with "android.widget.AbsListView" for "MultiChoiceModeListener".(¦Ûî„úÿÿÿÿ
+N
+java:S1135¸"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ
+N
+java:S1135½"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ
+M
+java:S1874ù"1Remove this use of "getHeight"; it is deprecated.(·¡ªÃıÿÿÿÿ
+8
+java:S1116¯"Remove this empty statement.(ôŸìúÿÿÿÿ
+i
+java:S3776î"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(ãìîí
+?	java:S108õ")Either remove or fill this block of code.(ûÊ¥
+h
+java:S3776Ü"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(ÅôÉ#
+N
+java:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ
+^
+java:S1126£"BReplace this if-then-else statement by a single method invocation.(ç’¦ıÿÿÿÿ
+N
+java:S1135«"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ
+h
+java:S3776¨"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(ôŒùb
+G
+java:S3398®"0Move this method into "OnListItemClickListener".(‘ğğ¡
+A
+java:S3398Ò"%Move this method into "ModeCallback".(“ğÉçıÿÿÿÿ
+<
+java:S3398î"%Move this method into "ModeCallback".(ãìîí
+K
+java:S3398Ò"/Move this method into "BackgroundQueryHandler".(—÷õüÿÿÿÿ

@@ -1,0 +1,6 @@
+projectKey=DuTest
+serverUrl=http://192.168.126.128:9000
+serverVersion=9.9.0.65466
+dashboardUrl=http://192.168.126.128:9000/dashboard?id=DuTest
+ceTaskId=AYamX52lXhljXg_SrFL5
+ceTaskUrl=http://192.168.126.128:9000/api/ce/task?id=AYamX52lXhljXg_SrFL5
