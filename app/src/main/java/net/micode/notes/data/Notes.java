@@ -22,6 +22,9 @@ import android.net.Uri;
 public class Notes {
     public static final String AUTHORITY = "micode_notes";
     public static final String TAG = "Notes";
+
+
+
     
     //以下三个常量对NoteColumns.TYPE的值进行设置时会用到
     public static final int TYPE_NOTE     = 0;
