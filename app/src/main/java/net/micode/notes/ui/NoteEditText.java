@@ -47,7 +47,7 @@ public class NoteEditText extends EditText {
     private static final String SCHEME_HTTP = "http:" ;
     private static final String SCHEME_EMAIL = "mailto:" ;
     
-    ///建立一个字符和整数的hash表，用于链接电话，网站，还有邮箱
+    ///建立一个字符和整数的hash表，用于链接电话、网站还有邮箱
     private static final Map<String, Integer> sSchemaActionResMap = new HashMap<String, Integer>();
     static {
         sSchemaActionResMap.put(SCHEME_TEL, R.string.note_link_tel);
