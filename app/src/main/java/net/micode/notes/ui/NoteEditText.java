@@ -99,7 +99,7 @@ public class NoteEditText extends EditText {
     }
 
     //AttributeSet 百度了一下是自定义空控件属性，用于维护便签动态变化的属性
-    //初始化便签
+    //进行初始化便签
     public NoteEditText(Context context, AttributeSet    attrs) {
         super(context, attrs, android.R.attr.editTextStyle);
     }
