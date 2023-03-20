@@ -189,7 +189,7 @@ public class WorkingNote {
             int widgetType, int defaultBgColorId) {
         WorkingNote note = new WorkingNote(context, folderId);
         // 设定相关属性
-        note.setBgColorId(defaultBgColorId);
+        note.setBgColorId(defaultBgColorId);//为每个活动设置默认背景颜色
         note.setWidgetId(widgetId);
         note.setWidgetType(widgetType);
         return note;
@@ -254,6 +254,7 @@ public class WorkingNote {
             mAlertDate = date;
             mNote.setNoteValue(NoteColumns.ALERTED_DATE, String.valueOf(mAlertDate));
         }
+        //执行修改
         if (mNoteSettingStatusListener != null) {
             mNoteSettingStatusListener.onClockAlertChanged(date, set);
         }
@@ -273,10 +274,13 @@ public class WorkingNote {
  // 设定背景颜色
     public void setBgColorId(int id) {
         if (id != mBgColorId) { //设定条件 id != mBgColorId
+            //若想要选择颜色不是当前系统的颜色。将系统颜色id设置为需要改变的颜色的id
             mBgColorId = id;
             if (mNoteSettingStatusListener != null) {
+                //如果系统状态监听器有效，则执行该方法
                 mNoteSettingStatusListener.onBackgroundColorChanged();
             }
+            //将更改的系统背景颜色的参数进行记录
             mNote.setNoteValue(NoteColumns.BG_COLOR_ID, String.valueOf(id));
         }
     }
@@ -286,8 +290,13 @@ public class WorkingNote {
     public void setCheckListMode(int mode) {
         if (mMode != mode) { //设定条件 mMode != mode
             if (mNoteSettingStatusListener != null) {
+
+
+                /*mMode 为当前列表模式模式，mode为需要更改的列表模式
+                调用NoteSettingChangedListener接口函数进行实现*/
                 mNoteSettingStatusListener.onCheckListModeChanged(mMode, mode);
             }
+            //对当前列表模式进行更新
             mMode = mode;
             mNote.setTextData(TextNote.MODE, String.valueOf(mMode));
         }
@@ -400,6 +409,7 @@ public class WorkingNote {
          * Called when the background color of current note has just changed
          */
         void onBackgroundColorChanged();
+
 
         /**
          * Called when user set clock

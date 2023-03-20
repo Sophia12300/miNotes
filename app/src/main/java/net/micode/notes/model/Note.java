@@ -157,6 +157,8 @@ public class Note {
         }
 
         void setTextDataId(long id) {
+
+            //如果ID为0则抛出异常，否则就更新
             if(id <= 0) {
                 throw new IllegalArgumentException("Text data id should larger than 0");
             }

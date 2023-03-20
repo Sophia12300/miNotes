@@ -622,8 +622,9 @@ public class NoteEditActivity extends Activity implements OnClickListener,
      */
     private void setReminder() {
         DateTimePickerDialog d = new DateTimePickerDialog(this, System.currentTimeMillis());
-        // 建立修改时间日期的对话框
+        // 建立修改时间日期的对话框,获取当前的系统时间（以毫秒为单位）
         d.setOnDateTimeSetListener(new OnDateTimeSetListener() {
+            //建立修改时间事件监听
             public void OnDateTimeSet(AlertDialog dialog, long date) {
                 mWorkingNote.setAlertDate(date	, true);
                 //选择提醒的日期
@@ -1021,6 +1022,9 @@ public class NoteEditActivity extends Activity implements OnClickListener,
          * Before send message to home, we should make sure that current
          * editing note is exists in databases. So, for new note, firstly
          * save it
+         *
+         *
+         * 在发送信息到主页之前，需要确定编辑的笔记在数据库中已经存在。所以，对于新建的笔记，需要先保存
          */
         if (!mWorkingNote.existInDatabase()) {
             saveNote();
@@ -1029,6 +1033,7 @@ public class NoteEditActivity extends Activity implements OnClickListener,
 
         if (mWorkingNote.getNoteId() > 0) {
         	//若是有内容
+            //建立显式跳转
             Intent sender = new Intent();
             Intent shortcutIntent = new Intent(this, NoteEditActivity.class);
             //建立发送到桌面的连接器
@@ -1041,9 +1046,9 @@ public class NoteEditActivity extends Activity implements OnClickListener,
             sender.putExtra(Intent.EXTRA_SHORTCUT_ICON_RESOURCE,
                     Intent.ShortcutIconResource.fromContext(this, R.drawable.icon_app));
             sender.putExtra("duplicate", true);
-            //将便签的相关信息都添加到要发送的文件里
+            //将便签的相关信息都添加到要发送的文件里,在活动见进行消息的传递
             sender.setAction("com.android.launcher.action.INSTALL_SHORTCUT");
-            //设置sneder的行为是发送
+            //设置sender的行为是发送
             showToast(R.string.info_note_enter_desktop);
             sendBroadcast(sender);
             //显示到桌面
@@ -1052,7 +1057,11 @@ public class NoteEditActivity extends Activity implements OnClickListener,
              * There is the condition that user has input nothing (the note is
              * not worthy saving), we have no note id, remind the user that he
              * should input something
+             *
+             *
+             * 这表示着，用户还未在编辑界面记录笔记，没有保存的必要。这时系统要提醒用户需要记录一些东西。
              */
+            //在日志中显示发送错误的信息
             Log.e(TAG, "Send to desktop error");
             showToast(R.string.error_note_empty_for_send_to_desktop);
             //空便签直接报错
