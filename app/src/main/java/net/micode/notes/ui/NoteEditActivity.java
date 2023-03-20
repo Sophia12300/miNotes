@@ -76,7 +76,9 @@ public class NoteEditActivity extends Activity implements OnClickListener,
         NoteSettingChangedListener, OnTextViewChangeListener {
 	//该类主要是针对标签的编辑
 	//继承了系统内部许多和监听有关的类
+    //继承自Activity，调用OnClickListener接口
     private class HeadViewHolder {
+        //定义
         public TextView tvModified;
 
         public ImageView ivAlertIcon;
@@ -542,25 +544,29 @@ public class NoteEditActivity extends Activity implements OnClickListener,
      * 函数实现：如下注释
      */
     public boolean onOptionsItemSelected(MenuItem item) {
+        //获取标签的ID
         switch (item.getItemId()) {
-        //根据菜单的id来编剧相关项目
+        //采用和switch-case进行不同的操作
             case R.id.menu_new_note:
             	//创建一个新的便签
                 createNewNote();
                 break;
+            //删除便签
             case R.id.menu_delete:
-            	//删除便签
+
+                //弹窗提示
                 AlertDialog.Builder builder = new AlertDialog.Builder(this);
                 //创建关于删除操作的对话框
+                //设置标题
                 builder.setTitle(getString(R.string.alert_title_delete));
-                // 设置标签的标题为alert_title_delete
-                builder.setIcon(android.R.drawable.ic_dialog_alert);
                 //设置对话框图标
-                builder.setMessage(getString(R.string.alert_message_delete_note));
+                builder.setIcon(android.R.drawable.ic_dialog_alert);
                 //设置对话框内容
+                builder.setMessage(getString(R.string.alert_message_delete_note));
+                //添加“YES”按钮
                 builder.setPositiveButton(android.R.string.ok,
                         new DialogInterface.OnClickListener() {
-                	//建立按键监听器
+                	//设置点击事件监听
                             public void onClick(DialogInterface dialog, int which) {
                             	//点击所触发事件
                                 deleteCurrentNote();
@@ -568,14 +574,14 @@ public class NoteEditActivity extends Activity implements OnClickListener,
                                 finish();
                             }
                         });
-                //添加“YES”按钮
-                builder.setNegativeButton(android.R.string.cancel, null);
                 //添加“NO”的按钮
-                builder.show();
+                builder.setNegativeButton(android.R.string.cancel, null);
                 //显示对话框
+                builder.show();
                 break;
+             //字体大小的编辑
             case R.id.menu_font_size:
-            //字体大小的编辑
+
                 mFontSizeSelector.setVisibility(View.VISIBLE);
             // 将字体选择器置为可见
                 findViewById(sFontSelectorSelectionMap.get(mFontSizeId)).setVisibility(View.VISIBLE);
@@ -590,7 +596,7 @@ public class NoteEditActivity extends Activity implements OnClickListener,
             	//菜单共享
                 getWorkingText();
                 sendTo(this, mWorkingNote.getContent());
-                // 用sendto函数将运行文本发送到遍历的本文内
+                // 用sendTo函数将运行文本发送到遍历的本文内
                 break;
             case R.id.menu_send_to_desktop:
             	//发送到桌面
