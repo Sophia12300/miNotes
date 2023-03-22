@@ -304,7 +304,7 @@ public class NoteEditActivity extends Activity implements OnClickListener,
             int currentLength = 0;
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-                textView.setText("字符数：" + currentLength);
+                textView.setText("字数：" + currentLength);
             }
 
             @Override
@@ -314,7 +314,7 @@ public class NoteEditActivity extends Activity implements OnClickListener,
 
             @Override
             public void afterTextChanged(Editable s) {
-                textView.setText("字符数：" + currentLength);
+                textView.setText("字数：" + currentLength);
             }
         });
 
