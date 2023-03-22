@@ -132,6 +132,7 @@ int id prefenerece_sync_status_textview 0x7f050036
 int id preference_sync_button 0x7f050037
 int id selection_menu 0x7f050038
 int id sv_note_edit 0x7f050039
+int id text_num 0x7f050043
 int id tv_alert_date 0x7f05003a
 int id tv_folder_name 0x7f05003b
 int id tv_modified_date 0x7f05003c

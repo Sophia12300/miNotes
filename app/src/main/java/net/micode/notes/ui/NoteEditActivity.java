@@ -30,9 +30,11 @@ import android.content.SharedPreferences;
 import android.graphics.Paint;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
+import android.text.Editable;
 import android.text.Spannable;
 import android.text.SpannableString;
 import android.text.TextUtils;
+import android.text.TextWatcher;
 import android.text.format.DateUtils;
 import android.text.style.BackgroundColorSpan;
 import android.util.Log;
@@ -74,6 +76,9 @@ import java.util.regex.Pattern;
 
 public class NoteEditActivity extends Activity implements OnClickListener,
         NoteSettingChangedListener, OnTextViewChangeListener {
+    //用于字符统计
+    private EditText editText;
+    private TextView textView;
 	//该类主要是针对标签的编辑
 	//继承了系统内部许多和监听有关的类
     //继承自Activity，调用OnClickListener接口
@@ -290,6 +295,28 @@ public class NoteEditActivity extends Activity implements OnClickListener,
     }
 
     private void initNoteScreen() {
+        //用于字符统计
+        editText = (EditText) findViewById(R.id.note_edit_view);
+        textView = (TextView) findViewById(R.id.text_num);
+        editText.addTextChangedListener(new TextWatcher() {
+            int currentLength = 0;
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+                textView.setText("字符数：" + currentLength);
+            }
+
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+                currentLength = editText.getText().length();
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+                textView.setText("字符数：" + currentLength);
+            }
+        });
+
+
     	//对界面的初始化操作
         mNoteEditor.setTextAppearance(this, TextAppearanceResources
                 .getTexAppearanceResource(mFontSizeId));
