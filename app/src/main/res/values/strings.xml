@@ -126,6 +126,12 @@
     <string name="search">Notes</string>
     <string name="datetime_dialog_ok">set</string>
     <string name="datetime_dialog_cancel">Cancel</string>
+
+    <string name="bk1">自定义 1</string>
+    <string name="bk2">自定义 2</string>
+    <string name="bk3">自定义 3</string>
+    <string name="cancel">系统</string>
+
     <plurals name="search_results_title">
          <item quantity="one"><xliff:g id="number" example="1">%1$s</xliff:g> result for \"<xliff:g id="search" example="???">%2$s</xliff:g>\"</item>
         <!-- Case of 0 or 2 or more results. -->

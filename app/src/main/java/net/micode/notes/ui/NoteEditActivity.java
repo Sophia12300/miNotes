@@ -79,6 +79,8 @@ public class NoteEditActivity extends Activity implements OnClickListener,
     //用于字符统计
     private EditText editText;
     private TextView textView;
+
+
 	//该类主要是针对标签的编辑
 	//继承了系统内部许多和监听有关的类
     //继承自Activity，调用OnClickListener接口
@@ -562,6 +564,9 @@ public class NoteEditActivity extends Activity implements OnClickListener,
         } else {
             menu.findItem(R.id.menu_delete_remind).setVisible(false);
         }
+
+
+
         return true;
     }
 
@@ -574,6 +579,8 @@ public class NoteEditActivity extends Activity implements OnClickListener,
         //获取标签的ID
         switch (item.getItemId()) {
         //采用和switch-case进行不同的操作
+            //选择自己喜欢的背景
+
             case R.id.menu_new_note:
             	//创建一个新的便签
                 createNewNote();

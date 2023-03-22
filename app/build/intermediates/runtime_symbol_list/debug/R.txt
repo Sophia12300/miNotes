@@ -11,6 +11,9 @@ int dimen text_font_size_small 0x7f030003
 int dimen text_font_size_super 0x7f030004
 int drawable bg_btn_set_color 0x7f040000
 int drawable bg_color_btn_mask 0x7f040001
+int drawable bk1 0x7f040043
+int drawable bk2 0x7f040044
+int drawable bk3 0x7f040045
 int drawable call_record 0x7f040002
 int drawable clock 0x7f040003
 int drawable delete 0x7f040004
@@ -76,6 +79,10 @@ int drawable widget_4x_green 0x7f04003f
 int drawable widget_4x_red 0x7f040040
 int drawable widget_4x_white 0x7f040041
 int drawable widget_4x_yellow 0x7f040042
+int id A0 0x7f050047
+int id A1 0x7f050044
+int id A2 0x7f050045
+int id A3 0x7f050046
 int id account_dialog_subtitle 0x7f050000
 int id account_dialog_title 0x7f050001
 int id action_select_all 0x7f050002
@@ -175,8 +182,12 @@ int string alert_title_delete 0x7f0a0003
 int string app_name 0x7f0a0004
 int string app_widget2x2 0x7f0a0005
 int string app_widget4x4 0x7f0a0006
+int string bk1 0x7f0a0066
+int string bk2 0x7f0a0067
+int string bk3 0x7f0a0068
 int string button_delete 0x7f0a0007
 int string call_record_folder_name 0x7f0a0008
+int string cancel 0x7f0a0069
 int string datetime_dialog_cancel 0x7f0a0009
 int string datetime_dialog_ok 0x7f0a000a
 int string delete_remind_time_message 0x7f0a000b

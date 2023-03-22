@@ -83,6 +83,7 @@ import java.util.HashSet;
  *
  */
 public class NotesListActivity extends Activity implements OnClickListener, OnItemLongClickListener {   //没有用特定的标签加注释。。。感觉没有什么用
+    private int mode = -2;//可为-2，-1，0，1；
     private static final int FOLDER_NOTE_LIST_QUERY_TOKEN = 0;
 
     private static final int FOLDER_LIST_QUERY_TOKEN      = 1;
@@ -148,6 +149,7 @@ public class NotesListActivity extends Activity implements OnClickListener, OnIt
         //final不能用于修饰构造方法。
         super.onCreate(savedInstanceState); // 调用父类的onCreate函数
         setContentView(R.layout.note_list);
+        getWindow().setBackgroundDrawableResource(R.drawable.list_background);
         initResources();
 
         /**
@@ -812,12 +814,38 @@ public class NotesListActivity extends Activity implements OnClickListener, OnIt
         } else {
             Log.e(TAG, "Wrong state:" + mState);
         }
+        if(mode == -1){
+            menu.findItem(R.id.A1).setVisible(false);
+        }else if(mode == 0){
+            menu.findItem(R.id.A2).setVisible(false);
+        }else if(mode == 1){
+            menu.findItem(R.id.A3).setVisible(false);
+        }
         return true;
     }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
+
+            case R.id.A1:
+                mode = -1;
+                getWindow().setBackgroundDrawableResource(R.drawable.bk1);
+                break;
+            case R.id.A2:
+                mode = -0;
+                getWindow().setBackgroundDrawableResource(R.drawable.bk2);
+                break;
+            case R.id.A3:
+                mode = 1;
+                getWindow().setBackgroundDrawableResource(R.drawable.bk3);
+                break;
+            case R.id.A0:
+                mode = -2;
+//                @drawable/list_background
+                getWindow().setBackgroundDrawableResource(R.drawable.list_background);
+                break;
+
             case R.id.menu_new_folder: {
                 showCreateOrModifyFolderDialog(true);
                 break;
