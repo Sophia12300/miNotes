@@ -72,7 +72,7 @@ public class NotesListAdapter extends CursorAdapter {
         return new NotesListItem(context);
     }
 
-    /*
+    /*。
      * 函数功能：将已经存在的视图和鼠标指向的数据进行捆绑
      * 函数实现：如下注释
      */
