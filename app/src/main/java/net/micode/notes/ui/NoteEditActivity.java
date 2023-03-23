@@ -176,6 +176,7 @@ public class NoteEditActivity extends Activity implements OnClickListener,
      * Current activity may be killed when the memory is low. Once it is killed, for another time
      * user load this activity, we should restore the former state
      */
+    //  当内存不足时，当前活动可能会被终止。一旦它被杀死，下次用户加载此活动，我们应该恢复以前的状态
     @Override
     protected void onRestoreInstanceState(Bundle savedInstanceState) {
         super.onRestoreInstanceState(savedInstanceState);

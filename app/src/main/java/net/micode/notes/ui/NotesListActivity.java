@@ -85,7 +85,7 @@ import java.util.HashSet;
 public class NotesListActivity extends Activity implements OnClickListener, OnItemLongClickListener {   //没有用特定的标签加注释。。。感觉没有什么用
     private static final int FOLDER_NOTE_LIST_QUERY_TOKEN = 0;
 
-    private static final int FOLDER_LIST_QUERY_TOKEN      = 1;
+    private static final int FOLDER_LIST_QUERY_TOKEN = 1;
 
     private static final int MENU_FOLDER_DELETE = 0;
 

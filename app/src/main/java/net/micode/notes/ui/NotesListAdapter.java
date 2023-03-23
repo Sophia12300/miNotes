@@ -163,8 +163,8 @@ public class NotesListAdapter extends CursorAdapter {
      */
     public HashSet<AppWidgetAttribute> getSelectedWidget() {
         HashSet<AppWidgetAttribute> itemSet = new HashSet<AppWidgetAttribute>();
-        for (Integer position : mSelectedIndex.keySet()) {
-            if (mSelectedIndex.get(position) == true) {
+        for (Integer position : mSelectedIndex.keySet()) {  //遍历所有的键
+            if (mSelectedIndex.get(position) == true) {  //若光标位置可用
                 Cursor c = (Cursor) getItem(position);
                 //以上4句和getSelectedItemIds一样，不再重复
                 if (c != null) {
